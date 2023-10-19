@@ -1,0 +1,33 @@
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Adjust gap and width as needed */
+    gap: 10px; /* Gap between cards */
+    width: 70%; /* Adjust the width as needed */
+  }
+  
+  .item {
+    /* Adjust the width to display 2 cards side by side */
+    flex: 0 0 calc(50% - 10px); /* Subtract gap width from card width */
+    /* Adjust margin or padding as needed */
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Additional styling for cards */
+    text-align: center;
+  }
+  .card {
+    flex: 0 0 calc(50% - 10px);
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .card-content {
+    max-width: 100%; /* Adjust as needed */
+    /* Additional styling for card content */
+  }
+  
