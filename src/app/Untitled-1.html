@@ -1,0 +1,27 @@
+<div></div>
+<div class="row">
+    <div class="col-sm-6">
+        <div style="display: flex; flex-direction: row;">
+            <div class="container mt-3">
+            <h2>Card Image</h2>
+            <p>Image at the top (card-img-top):</p>
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">{{item.name}}</h4>
+                <p class="card-text">{{item.description}}</p>
+                <p class="card-text">{{item.price}}</p>
+                <a href="#" class="btn btn-primary" (click)="addItemInCart(item.id)">Add Cart</a>
+              </div>
+            </div>
+            <br>
+            
+        </div>
+
+    </div>
+
+
+</div>
+
+
+</div>
